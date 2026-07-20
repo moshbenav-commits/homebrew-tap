@@ -14,6 +14,9 @@ Install Creytix desktop apps with [Homebrew](https://brew.sh).
 # One-time: add the tap (github.com is assumed, so no URL needed)
 brew tap moshbenav-commits/tap
 
+# Homebrew guards third-party casks — trust this tap once
+brew trust moshbenav-commits/tap
+
 # Install the IDE
 brew install --cask creytix-ide
 ```
